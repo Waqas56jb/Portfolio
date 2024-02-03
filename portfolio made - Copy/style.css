@@ -1,0 +1,121 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFC0CB;
+    color: #000000; /* Updated text color */
+}
+
+header {
+    background-color: #FFC0CB;
+    padding: 10px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #ffffff; /* Updated text color */
+    border: #ffffff;
+    background-color: #555;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease; /* Added color transition */
+}
+
+nav a:hover {
+    background-color: #555;
+    transform: translateY(-2px);
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    margin-bottom: 100px; /* Adjusted margin for content */
+}
+
+aside {
+    overflow: hidden;
+}
+
+aside img {
+    border-radius: 20%;
+    height: 400px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+    border: 2px solid #46560b;
+    transition: transform 0.3s ease, filter 2s ease;
+}
+
+aside img:hover {
+    transform: translateY(-10px);
+}
+
+.text-content p {
+    background-color: #FFC0CBa7;
+    font-weight: bold;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #000000; /* Updated text color */
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+    padding: 15px;
+    text-align: center;
+    border: #ffffff;
+}
+
+.text-content p span {
+    font-weight: normal;
+    font-size: 0.8em; /* Smaller size for "thin and stylish" */
+    letter-spacing: -1px; /* Adjust letter spacing for stylish look */
+}
+
+.text-content:hover {
+    transform: translateY(-5px);
+}
+
+/* Add movement to footer links */
+footer a {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #000000; /* Updated text color */
+    border: 1px solid #fffdfd;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+footer a:hover {
+    color: #fff;
+    background-color: #555;
+    border-color: white;
+    transform: translateY(-2px);
+}
+
+footer {
+    background-color: #FFC0CB;
+    color: #000000; /* Updated text color */
+    text-align: center;
+    padding: 20px 0;
+    position: relative; /* Changed to relative positioning */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #000000; /* Updated heading color */
+}
+
+hr {
+    border: #c82561;
+    box-shadow: #c82561;
+    border-radius: 0;
+}

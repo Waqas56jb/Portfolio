@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css"> <!-- Linking the CSS file -->
+</head>
+<body>
+    <hr>
+    <header>
+        <nav>
+            <!-- Navigation buttons -->
+            <a href="home.html">Home</a>
+            <a href="skills.html">Skills</a>
+            <a href="experience.html">Experiences</a>
+            <a href="about.html">About</a>
+            <a href="enroll.html">Enroll</a>
+            <a href="login.html">Login/SignUp</a>
+        </nav>
+    </header>  <hr>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form class="login-form" action="your_login_endpoint" method="POST">
+            <p>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </p>
+            <input type="submit" value="Login">
+            <p class="extra-text">Don't have an account? <a href="signup.html">Create one</a>.</p>
+        </form>
+    </div>
+    <hr>
+
+<footer>
+    <!-- Footer links -->
+    <a href="#">FAQ</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Terms of Use</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Refund Policy</a>
+</footer>
+
+<hr>
+</body>
+</html>

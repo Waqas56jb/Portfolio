@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    background-color: #FFC0CB;
+    padding: 10px;
+}
+.about-me-container H1{
+    text-align: center;
+    border: 0 4px 6px rgb(255, 255, 255);/* Updated border color */
+    border-radius: 3px;
+    box-shadow:  0 4px 6px rgb(255, 255, 255);
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
+}
+
+
+nav a {
+    display: inline-block;
+    padding: 15px 25px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #555;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgb(217, 78, 129);
+    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #741e3f;
+    transform: translateY(-2px);
+}
+
+.about-me-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.655);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(56, 12, 12, 0.1);
+    border: #0f0202;
+}
+
+.about-me-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #ffffff;
+    border-radius: 8px;
+    background-color: #000000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 0 4px 6px rgb(255, 255, 255);
+    padding-inline: 30px;
+    padding-block: 15px;
+}
+
+.about-content {
+    background-color: #000;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #ffffff;
+    padding-top: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 0 4px 6px rgb(73, 17, 17);
+    text-align: center;
+}
+
+ 
+header,
+footer {
+    background: linear-gradient(90deg, #ff00cc, #3333ff, #00ccff); /* Add a gradient background to header and footer */
+    color: #fff; /* Set text color to white */
+}
+
+header nav a,
+footer a {
+    background-color: #000; /* Set link background color to black */
+}
+footer a {
+    display:inline-block;
+    padding: 8px 18px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #ffffff; /* Updated text color */
+    border: 0 4px 6px rgb(140, 21, 65);/* Updated border color */
+    border-radius: 1px;
+    box-shadow:  0 4px 6px rgb(140, 21, 65);
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
+}
+ 
+
+footer a:hover {
+    color: #000000;
+    background-color: #e90303;
+    border-color: rgb(190, 16, 143);
+    transform: translateY(-2px); /* Move up slightly on hover */
+}
+footer a:hover {
+    color: #fff;
+    background-color: #FFC0CBa7;
+    border-color: #23527c;
+    transform: translateY(-2px); /* Move up slightly on hover */
+}
+hr {
+    border: none;
+    height: 10px;
+    background: linear-gradient(90deg, #ff00cc, #3333ff, #00ccff); /* Add a gradient line separator */
+}
+
+header,
+footer {
+    background: linear-gradient(90deg, #ff00cc, #3333ff, #00ccff); /* Add a gradient background to header and footer */
+    color: #fff; /* Set text color to white */
+}
+
+header nav a,
+footer a {
+    background-color: #000; /* Set link background color to black */
+}

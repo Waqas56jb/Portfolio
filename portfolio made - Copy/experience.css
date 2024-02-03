@@ -1,0 +1,367 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #FFC0CBa7;
+
+    padding: 10px;
+    text-align: center; /* Align buttons to the right */
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #FFC0CBa7;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+
+/* Styling header and navigation */
+/* (Same as previous CSS) */
+
+/* Styling experience section */
+.experience-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #FFC0CBa7;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding-top: 80px;
+}
+
+.experience-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 36px;
+    color: #333;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+}
+
+.experience-item h2 {
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+/* Styling footer */
+/* (Same as previous CSS) */
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Add movement to footer links */
+footer a {
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
+}
+
+footer a:hover {
+    color: #fff;
+    background-color: #FFC0CBa7;
+    border-color: #23527c;
+    transform: translateY(-2px); /* Move up slightly on hover */
+}
+
+/* ... (rest of the CSS remains the same) ... */
+/* ... (previous CSS) ... */
+
+footer {
+    background-color: #FFC0CBa7;
+    color: #fff;
+    text-align: center; /* Align the text to the right */
+    padding: 20px 20px 20px 0; /* Adjust padding for spacing */
+}
+/* Styling header and navigation */
+header {
+    background-color: #FFC0CBa7;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a.active {
+    color: yellow; /* Change active link color as needed */
+}
+
+/* Styling about me section */
+ 
+/* Styling footer */
+footer {
+    background-color: #FFC0CBa7;
+    color:  #FFC0CBa7;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* Additional CSS specific to the Experience section */
+
+* Ensure content starts below the header */
+body {
+    padding-top: 70px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Experience section styles */
+.experience-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.experience-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.experience-item {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f2f536a7;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.experience-item h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+
+
+    color: #ffffff;
+ 
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+
+    display:inline-flexbox;
+    padding: 15px 30px;
+    margin: 0 5px;
+    text-decoration: none;
+     border: 1px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+    background-color: #000000;
+    border-color: #000;
+    transform: translateY(-2px);
+
+
+
+
+    
+}
+
+.experience-item p {
+    color: #ffffff;
+ 
+        text-align: center;
+        padding: 20px 0;
+        position: relative;
+        box-shadow: 0 4px 6px rgb(140, 21, 65);
+    
+        display:inline-flexbox;
+        padding: 15px 30px;
+        margin: 0 5px;
+        text-decoration: none;
+         border: 1px solid #fff;
+        border-radius: 3px;
+        box-shadow: 0 4px 6px rgb(140, 21, 65);
+        transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+        background-color: #000000;
+        border-color: #000;
+        transform: translateY(-2px);
+
+
+
+    
+}
+
+ 
+
+header,
+footer {
+    background: linear-gradient(90deg, #ff00cc, #3333ff, #00ccff); /* Add a gradient background to header and footer */
+    color: #fff; /* Set text color to white */
+}
+
+header nav a,
+footer a {
+    background-color: #000; /* Set link background color to black */
+}
+footer a {
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #000000; /* Updated text color */
+    border: 0 4px 6px rgb(140, 21, 65);/* Updated border color */
+    border-radius: 3px;
+    box-shadow:  0 4px 6px rgb(140, 21, 65);
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
+}
+ 
+
+footer a:hover {
+    color: #000000;
+    background-color: #e90303;
+    border-color: rgb(190, 16, 143);
+    transform: translateY(-2px); /* Move up slightly on hover */
+}
+
+footer {
+    background-color: #FFC0CB;
+    color: #000000; /* Updated text color */
+    text-align: center;
+    padding: 20px 0;
+}
+hr {
+    color: pink;
+   box-shadow: #9b198c;
+   border: #9b198c;
+}footer a {
+    display: inline-block;
+    padding: 15px 30px; /* Increase the padding for longer buttons */
+    margin: 0 5px;
+    text-decoration: none;
+    color: #000000; /* Updated text color */
+    border: 1px solid #fffdfd; /* Updated border color */
+    border-radius: 3px;
+    box-shadow:  0 4px 6px rgb(140, 21, 65);
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
+}
+
+footer a:hover {
+    color: #fff;
+    background-color: #d0537d;
+    border-color: white;
+    transform: translateY(-2px); /* Move up slightly on hover */
+}
+
+footer {
+    background-color: #FFC0CB;
+    color: #000000; /* Updated text color */
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}header {
+    background-color: #FFC0CB;
+    padding: 10px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 25px; /* Adjust padding for home buttons */
+    margin: 0 5px;
+    text-decoration: none;
+    color: #ffffff; /* Updated text color for home buttons */
+    border: #ffffff;
+    background-color: #f4a5ca; /* Different color for home buttons */
+    border-radius: 30px; /* Adjusted border radius for home buttons */
+    box-shadow: 0 4px 6px rgb(217, 78, 129);
+    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease; /* Added color transition */
+}
+
+nav a:hover {
+    background-color: #741e3f; /* Darker color on hover for home buttons */
+    transform: translateY(-2px);
+}
+ 
+ 
+header {
+    background-color: #FFC0CB;
+    padding: 10px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 25px; /* Adjust padding for home buttons */
+    margin: 0 5px;
+    text-decoration: none;
+     color: rgb(255, 255, 255);
+    border: #ffffff;
+    background-color: #555; /* Different color for home buttons */
+    border-radius: 30px; /* Adjusted border radius for home buttons */
+    box-shadow: 0 4px 6px rgb(217, 78, 129);
+    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease; /* Added color transition */
+}
+
+nav a:hover {
+    background-color:#f372b6;/* Darker color on hover for home buttons */
+    transform: translateY(-2px);
+}
+body {
+    background-color: #000; /* Set background color to black */
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+}
+
+footer a {
+    display:inline-flexbox;
+    padding: 15px 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+footer a:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+    transform: translateY(-2px);
+}
+.experience-container{
+    background-color: #000000;
+}
+hr{
+    border: 1px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}

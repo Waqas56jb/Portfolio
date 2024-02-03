@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Account</title>
+    <link rel="stylesheet" href="signup.css"> <!-- Linking the CSS file -->
+</head>
+<body>
+    <div class="create-account-container">
+        <h1>Create New Account</h1>
+        <form class="create-account-form" action="your_registration_endpoint" method="POST">
+            <p>
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </p>
+            <p>
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" required>
+            </p>
+            <p>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="verification">Verification Code:</label>
+                <input type="text" id="verification" name="verification" required>
+            </p>
+            <input type="submit" value="Create Account">
+        </form>
+    </div>
+    <hr>
+
+<footer>
+    <!-- Footer links -->
+    <a href="#">FAQ</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Terms of Use</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Refund Policy</a>
+</footer>
+
+<hr>
+</body>
+</html>

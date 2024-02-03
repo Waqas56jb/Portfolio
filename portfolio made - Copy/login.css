@@ -1,0 +1,124 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the login container */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+/* Styling the form */
+.login-form {
+    width: 300px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Styling the form inputs and labels */
+p {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Styling the extra text */
+.extra-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.extra-text a {
+    color: #007bff;
+    text-decoration: none;
+}
+header {
+    background-color: #e0e0e0;
+    padding: 10px;
+    text-align: center; /* Align buttons to the right */
+}
+/* Add movement to footer links */
+footer a {
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #337ab7;
+    border: 1px solid #337ab7;
+    border-radius: 3px;
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
+}
+
+footer a:hover {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #23527c;
+    transform: translateY(-2px); /* Move up slightly on hover */
+}
+
+/* ... (rest of the CSS remains the same) ... */
+/* ... (previous CSS) ... */
+
+footer {
+    background-color: #e0e0e0;
+    color: #fff;
+    text-align: center; /* Align the text to the right */
+    padding: 20px 20px 20px 0; /* Adjust padding for spacing */
+}
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #8996a1;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.extra-text a:hover {
+    text-decoration: underline;
+}

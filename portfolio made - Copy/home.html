@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS file -->
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        .social-icons {
+            display: flex;
+            align-items: center;
+        }
+
+        .social-icons a {
+            margin: 0 5px;
+        }
+
+        .social-icons img {
+            height: 60px; /* Adjust the height as needed */
+            width: auto;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        footer a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            background-color: #555;
+        }
+
+        aside {
+            overflow: hidden; /* Hide overflow content */
+        }
+
+        aside img {
+            height: 400px;
+            width: 350px;
+            object-fit: cover; /* Ensure the image covers the entire container */
+        }
+
+        .contact-number {
+            margin-left: 20px;
+            display: flex;
+            align-items: center;
+            font-size: 1.2em;
+            color: #333; /* Dark gray text color */
+        }
+
+        .contact-number p {
+            margin: 0;
+        }
+
+        /* Adding some style to the contact number */
+        .contact-number:before {
+            content: '\2022'; /* Bullet point as a separator */
+            margin-right: 10px;
+            color: #f575f5; /* Tomato color for the bullet */
+            font-size: 1.5em;
+        }
+
+        /* Styling the text content class */
+        .text-content {
+            text-align: center;
+        }
+
+        .text-content h3 {
+            font-size: 4vw;
+            font-family: "Arial";
+            color: #c82561; /* Adjust the color as needed */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adding text shadow */
+            margin-bottom: 10px; /* Adding margin for spacing */
+        }
+
+        .text-content strong {
+            font-size: 2em;
+            font-weight: bold;
+            color:#555;; /* Adjust the color as needed */
+            border-bottom: 2px solid #555; /* Adding a border under the text */
+            display: inline-block; /* Making the border under the text */
+            padding-bottom: 5px; /* Adjusting padding for spacing */
+        }
+
+        .text-content h6 {
+            font-size: 1.5em;
+            color: #555; /* Slightly lighter text color */
+            font-style: italic; /* Making it italic for emphasis */
+            margin-top: 5px; /* Adding margin for spacing */
+        }
+        body {
+    background-color: #000; /* Set background color to black */
+}
+
+aside {
+    overflow: hidden;
+    background-color: #000; /* Set background color to black */
+    border-radius: 50%; /* Make the image container circular */
+    box-shadow: 0 0 20px rgba(19, 214, 194, 0.8); /* Add a white glow around the image */
+}
+
+aside img {
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 50%; /* Make the image circular */
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+hr {
+    border: none;
+    height: 10px;
+    background: linear-gradient(90deg, #ff00cc, #3333ff, #00ccff); /* Add a gradient line separator */
+}
+
+header,
+footer {
+    background: linear-gradient(90deg, #ff00cc, #3333ff, #00ccff); /* Add a gradient background to header and footer */
+    color: #fff; /* Set text color to white */
+}
+
+header nav a,
+footer a {
+    background-color: #000; /* Set link background color to black */
+}
+
+/* Add shining animation to social media icons */
+.social-icons img {
+    animation: shining 2s infinite alternate;
+}
+
+@keyframes shining {
+    from {
+        filter: brightness(1);
+    }
+
+    to {
+        filter: brightness(1.5);
+    }
+}
+
+    </style>
+</head>
+
+<body>
+    <hr>
+    <header>
+        <div class="contact-number">
+            <!-- Adding a contact icon -->
+            <img src="img_352137.png" alt="Phone Icon" height="40" width="30" style="margin-right: 5px;">
+             
+        </div>
+        <nav>
+            <!-- Navigation buttons -->
+            <a href="home.html">Home</a>
+            <a href="skills.html">Skills</a>
+            <a href="experience.html">Experiences</a>
+            <a href="about.html">About</a>
+            <a href="contect.html">Contect</a>
+            
+        </nav>
+        <div class="social-icons">
+            <!-- Social media logos with links -->
+            <a href="https://www.instagram.com/masoom_hamza56jb?igsh=emF5ZDIwNXI3bnVj" target="_blank"><img src="instaa.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/ranawaqas.waqas.9400?mibextid=ZbWKwL" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+            <a href="https://www.snapchat.com/add/hamza56jb?share_id=rbYfj9G-rCk&locale=en-US" target="_blank"><img src="snapchat.png" alt="LinkedIn"></a>
+        </div>
+    </header>
+
+    <hr>
+
+    <div class="content">
+        <aside>
+            <img src="b.png" alt="it is my profile photo" height="400" width="350">
+        </aside>
+
+        <section class="text-content">
+            <div>
+                <h3><strong> Hi! I'm Waqas</strong></h3>
+                <h6>Passionate Web Developer</h6>
+            </div>
+        </section>
+    </div>
+
+    <hr>
+
+    <footer>
+        <!-- Footer links -->
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+    </footer>
+
+    <hr>
+</body>
+
+</html>

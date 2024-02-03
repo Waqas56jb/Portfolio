@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="enroll.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <hr>
+    <header>
+        <nav>
+            <!-- Navigation buttons -->
+            <a href="home.html">Home</a>
+            <a href="skills.html">Skills</a>
+            <a href="experience.html">Experiences</a>
+            <a href="about.html">About</a>
+            <a href="enroll.html">Enroll</a>
+            <a href="login.html">Login/SignUp</a>
+        </nav>
+    </header>  <hr>
+    <form action="">
+        <hr>
+        <h1>Payment Form</h1>
+        <hr>
+        <h2>Payment Method</h2>
+        <p>* <span class="required">Shows must be required </span></p>
+        <p><span class="required">Name :</span> <input type="text" name="name"></p>
+        <fieldset>
+            <legend><span class="required">Gender</span></legend>
+            <p>
+                <span class="required">Male*</span><input type="radio" name="gender" id="male" required>
+                <span class="required">Female*</span><input type="radio" name="gender" id="female" required>
+            </p>
+        </fieldset>
+        <p><span class="required">Address*:</span> <textarea name="Address" id="Address" cols="50" rows="5" required></textarea></p>
+        <p><span class="required">Email*:</span> <input type="email" name="email" id="email" required></p>
+        <fieldset>
+        <h2><span class="required"> <legend>Account Information</legend></span></h2>
+        <p><span class="required">Category</span>
+            <select name="card_type" id="card_type">
+                <option value=""><span class="required">--Select a Card Type--</span></option>
+                <option value="EasyPasa"><span class="required">EasyPaisa</span></option>
+                <option value="SadaPay"><span class="required">SadaPay</span></option>
+                <option value="Jazzcash"><span class="required">JazzCash</span></option>
+            </select>
+        </p>
+
+        <p><span class="required">Account</span> <input type="number" name="card_type" id="card_type"></p>
+        <p><span class="required">PinCode</span> <input type="password" name="CVV" id="cvv"></p>
+        <p><span class="required">Calander</span> <input type="date" name="exp_date" id="exp_date"></p>
+
+        <input    type="submit" value="Pay Now">
+    </fieldset>
+    </form>
+    <hr>
+
+<footer>
+    <!-- Footer links -->
+    <a href="#">FAQ</a>
+    <a href="#">Contact Us</a>
+    <a href="#">Terms of Use</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Refund Policy</a>
+</footer>
+
+<hr>
+</body>
+ 
+</html>

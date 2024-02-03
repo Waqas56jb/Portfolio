@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="skills.css"> <!-- Link to external CSS file -->
+</head>
+<style>
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+
+/* Header styles */
+ 
+ 
+
+ 
+
+nav a:hover {
+    background-color: #000;
+    transform: translateY(-2px);
+}
+
+/* Skills section */
+ 
+
+.skill {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(15, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+}
+
+/* ... previous styles ... */
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: #162185;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #3333ff;
+    filter: brightness(1.5); /* Add brightness effect */
+    z-index: 2; /* Add or modify this line */
+}
+
+/* ... remaining styles ... */
+
+
+.circle span {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Additional Skills section */
+.extra-skills {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+}
+
+.extra-skills h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+    display: grid;
+}
+
+.extra-skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.extra-skills ul li {
+    display:flex;
+    padding: 15px 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #010000;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+.extra-skills ul li:hover {
+    transform: scale(1.05);
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+}
+
+footer a {
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+footer a:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+    transform: translateY(-2px);
+}
+/* ... previous styles ... */
+
+/* Skills section */
+.skill {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(15, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #000; /* Set background color to black */
+    padding: 20px; /* Add padding for better visibility */
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+}
+/* ... previous styles ... */
+
+.ji {
+    text-align: center; /* Center the text inside <ji> tag */
+}
+
+/* ... remaining styles ... */
+
+/* ... remaining styles ... */
+
+
+</style>
+
+<body>
+    <header style="background: linear-gradient(90deg, #ff00cc, #3333ff, #00ccff); color: #fff;" align="center">
+        <nav>
+            <!-- Navigation buttons -->
+            <a href="home.html">Home</a>
+            <a href="skills.html">Skills</a>
+            <a href="experience.html">Experiences</a>
+            <a href="about.html">About</a>
+            <a href="contect.html">Contect</a>
+            
+        </nav>
+    </header>
+   <!-- ... previous HTML ... -->
+
+    <h1>
+    <p align="center">Website Expertise</p>
+</h1>
+    <!-- ... remaining HTML ... -->
+
+    <div class="content" align="center">
+        <div class="skill">
+            <h3>Web Development Expertise</h3>
+            <div class="circle">
+                <span>98%</span>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>Design and Coordination</h3>
+            <div class="circle">
+                <span>95%</span>
+            </div>
+        </div>
+        <div class="skill">
+            <h3>Versatile Programming Skills</h3>
+            <div class="circle">
+                <span>97%</span>
+            </div>
+        </div>
+    </div>
+    <aside class="extra-skills">
+        <h3 align="center">Additional Skills</h3>
+        <ul>
+            <li>C++</li>
+            <li>Java</li>
+            <li>C</li>
+            <li>SQL/MySQL</li>
+            <li>NoSQL</li>
+            <li>Graphics Design</li>
+            <li>Project Coordination</li>
+        </ul>
+    </aside>
+    <footer style="background: linear-gradient(90deg, #ff00cc, #3333ff, #00ccff); color: #fff;">
+        <a href="#">FAQ</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,190 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+
+/* Header styles */
+header {
+    padding: 10px;
+}
+
+nav {
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #000;
+    transform: translateY(-2px);
+}
+
+/* Skills section */
+.skill {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(15, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill:hover {
+    transform: translateY(-5px);
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    border-radius: 50%;
+    border: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.circle span {
+    font-weight: bold;
+    color: #000;
+}
+
+/* Additional Skills section */
+.extra-skills {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+}
+
+.extra-skills h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #c82561;
+}
+
+.extra-skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.extra-skills ul li {
+    margin: 5px 0;
+    font-size: 18px;
+    box-shadow: 0 0 10px rgba(15, 0, 0, 0.1);
+    border: #000;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+}
+
+.extra-skills ul li:hover {
+    transform: scale(1.05);
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+}
+
+footer a {
+    display:inline-flexbox;
+    padding: 15px 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+
+footer a:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+    transform: translateY(-2px);
+}
+ 
+hr {
+    border: none;
+    height: 10px;
+    background: linear-gradient(90deg, #ff00cc, #3333ff, #00ccff); /* Add a gradient line separator */
+}
+
+header,
+footer {
+    background: linear-gradient(90deg, #ff00cc, #3333ff, #00ccff); /* Add a gradient background to header and footer */
+    color: #fff; /* Set text color to white */
+}
+
+header nav a,
+footer a {
+    background-color: #000; /* Set link background color to black */
+}
+.content{
+    display:flex;
+    padding: 15px 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+.hi{
+    align-content: center;
+    display:flex;
+    padding: 15px 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}
+.ji {
+    text-align: center; /* Center the text inside <ji> tag */
+}
+
+h1 p{
+     display:flow-root;
+    padding: 15px 30px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgb(140, 21, 65);
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease;
+}

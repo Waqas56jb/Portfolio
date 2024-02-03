@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3ecec;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    background-color: #f5ebeb;
+    padding: 20px;
+    width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+header {
+    background-color: #e0e0e0;
+    padding: 10px;
+    text-align: center; /* Align buttons to the right */
+}/* Add movement to footer links */
+footer a {
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #337ab7;
+    border: 1px solid #337ab7;
+    border-radius: 3px;
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, transform 0.2s ease; /* Added transform transition */
+}
+
+footer a:hover {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #23527c;
+    transform: translateY(-2px); /* Move up slightly on hover */
+}
+
+/* ... (rest of the CSS remains the same) ... */
+/* ... (previous CSS) ... */
+
+footer {
+    background-color: #e0e0e0;
+    color: #fff;
+    text-align: center; /* Align the text to the right */
+    padding: 20px 20px 20px 0; /* Adjust padding for spacing */
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #8996a1;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.required {
+    font-weight: bold;
+    color: #000000;
+}
+
+textarea {
+    width: calc(100% - 22px);
+    margin-right: -2px;
+}
+
+h1,
+h2 {
+    color: #1d1a1a;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+fieldset legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.payment-info {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #c5e4f3;
+    color: #333;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0 auto;
+    float: center; /* Aligns the button to the right */
+    margin-top: 10px; /* Adds space between the fieldset and the button */
+}
+
+input[type="submit"]:hover {
+    background-color: #aed8f7;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
+
+input[type="submit"]:active {
+    color: #838383;
+    background-color: #000000;
+    transform: translateY(1px);
+}
+
+input[type="submit"]:visited {
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #8996a1;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #23527c;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px);
+}
