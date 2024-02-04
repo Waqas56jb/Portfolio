@@ -1,5 +1,4 @@
-![image](https://github.com/Waqas56jb/Portfolio/assets/156122615/a9302e8c-e2dc-4d3c-b0d9-4c54a248c295)# Waqas Naveed's Portfolio
-
+ 
 ## About Me
 I am Waqas Naveed, a passionate software developer with expertise in various technologies. This repository serves as my portfolio, showcasing my projects, skills, and experience.
 
