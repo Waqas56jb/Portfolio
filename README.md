@@ -1,4 +1,4 @@
-# Waqas Naveed's Portfolio
+![image](https://github.com/Waqas56jb/Portfolio/assets/156122615/a9302e8c-e2dc-4d3c-b0d9-4c54a248c295)# Waqas Naveed's Portfolio
 
 ## About Me
 I am Waqas Naveed, a passionate software developer with expertise in various technologies. This repository serves as my portfolio, showcasing my projects, skills, and experience.
@@ -21,13 +21,15 @@ I am Waqas Naveed, a passionate software developer with expertise in various tec
 ## Skills
 CSS,html,JavaScript,Java,C++,C,SQL
 
- 
-![image](https://github.com/Waqas56jb/PortFolio_WebDevelopment/assets/156122615/c56acb8f-abca-426f-b3a5-6176176367c9)
-![image](https://github.com/Waqas56jb/PortFolio_WebDevelopment/assets/156122615/9aa4a2ac-4138-42d6-90d7-2eba0a85e202)
-![image](https://github.com/Waqas56jb/PortFolio_WebDevelopment/assets/156122615/b0cf6539-df35-4bee-a4da-045d682f27b1)
-![image](https://github.com/Waqas56jb/PortFolio_WebDevelopment/assets/156122615/216cd0b7-7832-4e9a-8365-1fe888369ca4)
-![image](https://github.com/Waqas56jb/PortFolio_WebDevelopment/assets/156122615/a93fab25-3f4e-4b48-bed1-6830149a3024)
-![image](https://github.com/Waqas56jb/PortFolio_WebDevelopment/assets/156122615/4ac0d628-6bd5-4d74-a95b-2b885099c903)
+  ![image](https://github.com/Waqas56jb/Portfolio/assets/156122615/8ad55d2f-6eb6-4864-a794-61e74f98ba1e)
+
+![image](https://github.com/Waqas56jb/Portfolio/assets/156122615/82199542-a4cc-44c5-9613-e05ba8709c3c)
+![image](https://github.com/Waqas56jb/Portfolio/assets/156122615/a3ccc133-6862-49fd-b80e-e7433d2ffdfe)
+![image](https://github.com/Waqas56jb/Portfolio/assets/156122615/50ebcc51-e90b-4083-b392-d27bfb6bbbfb)
+![image](https://github.com/Waqas56jb/Portfolio/assets/156122615/235f04fd-f071-4236-9e09-74301dbe8394)
+![image](https://github.com/Waqas56jb/Portfolio/assets/156122615/533d46aa-bb3d-4304-af9c-9e5828439e0a)
+![image](https://github.com/Waqas56jb/Portfolio/assets/156122615/ffb9cb04-bab3-44bb-a565-0840c3b85d47)
+
 
 ## Education
 ### University FAST NATIONAL UNIVERSITY PAKISTAN Name WAQAS, Degree CS COMPUTER SCIENCE
